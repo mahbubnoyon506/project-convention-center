@@ -9,12 +9,14 @@ li{
 .btn-bg-class{
     background-color:#FDF4FA;
     border: 0px;
+    margin-top: -20px;
 }
 .card-bg-class{
     background-color: #3F87F5; 
-    border-radius: 20px;   
+    border-radius: 20px; 
+
 }
-.card-bg-class h2, .card-bg-class h4,.card-bg-class p,.card-bg-class li{
+.card-bg-class h2,.card-bg-class h4,.card-bg-class p,.card-bg-class li{
     color: #FFFFFE;
 }
 .package-card:hover{
@@ -22,4 +24,15 @@ li{
     border-radius: 20px;  
     margin-top: -20px;
     transition: .5s ease-in-out;
+}
+.package-card:hover h2,.package-card:hover h4,.package-card:hover p,.package-card:hover li{
+    color: #FFFFFE;  
+}
+.badge-style-class{
+    margin: 0px;
+}
+
+/* footer-style */
+.footer-bg{
+    background-color: #000022;
 }
