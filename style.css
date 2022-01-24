@@ -1,1 +1,25 @@
-ul li{list-style-type: none;}
+/* price style */
+ul{
+    list-style-type: none;margin:0px;padding:0px;
+}
+
+li{
+    line-height: 30px;
+}
+.btn-bg-class{
+    background-color:#FDF4FA;
+    border: 0px;
+}
+.card-bg-class{
+    background-color: #3F87F5; 
+    border-radius: 20px;   
+}
+.card-bg-class h2, .card-bg-class h4,.card-bg-class p,.card-bg-class li{
+    color: #FFFFFE;
+}
+.package-card:hover{
+    background-color: #3F87F5; 
+    border-radius: 20px;  
+    margin-top: -20px;
+    transition: .5s ease-in-out;
+}
